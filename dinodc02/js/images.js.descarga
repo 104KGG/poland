@@ -1,0 +1,5 @@
+__images = {
+    "phone": "images/iPhoneXs/phone.jpg",
+    "iphone1": "images/iPhoneXs/iphone1.jpg"
+
+}
