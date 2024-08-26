@@ -1,1 +1,0 @@
-AFKClickUrl&&(container=document.createElement("div"),container.style.cssText="height: 0; width: 0; overflow: hidden; position: absolute; bottom:0; right: 0;",link=document.createElement("a"),link.href=AFKClickUrl+"?$_clickCode=1",container.appendChild(link),document.body.insertBefore(container,document.body.firstElementChild),document.body.appendChild(container.cloneNode(!0)));
