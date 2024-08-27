@@ -205,7 +205,7 @@
       margin-top: 0
     }
 
-    .paragraph :last-of-type {
+    .paragraph:last-of-type {
       margin-bottom: 0
     }
 
@@ -280,12 +280,12 @@
       width: 100%
     }
 
-    .survey__answer :nth-of-type(2) {
+    .survey__answer:nth-of-type(2) {
       -webkit-animation-delay: .15s;
       animation-delay: .15s
     }
 
-    .survey__answer :nth-of-type(3) {
+    .survey__answer:nth-of-type(3) {
       -webkit-animation-delay: .3s;
       animation-delay: .3s
     }
@@ -299,7 +299,7 @@
       width: 100%
     }
 
-    .comments__form-input :focus {
+    .comments__form-input:focus {
       box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .1);
       outline: none
     }
@@ -410,7 +410,7 @@
     #clock {
       color: #d61313;
       font-size: 2em;
-      padding: 10px 0px;
+      padding: 10px 0px
     }
 
     .modal-backdrop.fade {
@@ -420,23 +420,21 @@
 
     .modal-backdrop.in {
       filter: alpha(opacity=50);
-      opacity: .5"
 
-    }
+      opacity: .5"}
+ canvas {
+        display: block;
+        position: relative;
+        zindex: 1;
+        pointer-events: none;
+        position: fixed;
+        top: 0
+      }
 
-    canvas {
-      display: block;
-      position: relative;
-      zindex: 1;
-      pointer-events: none;
-      position: fixed;
-      top: 0;
-    }
-
-    .dear {
-      background: linear-gradient(180deg, #fe0000 10%, #A80000 90%);
-      color: #ffffff;
-    }
+      .dear {
+        background: linear-gradient(180deg, #fe0000 10%, #A80000 90%);
+        color: #ffffff
+      }
   </style>
   <script>
     function getURLParameter(name) {
